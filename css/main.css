@@ -25,19 +25,18 @@ body {
 .img-flex {
 	width: 100%;
 	display: block;
-	padding: 1em 0;
+}
+
+h1 {
+	text-align: center;
 }
 
 .masthead {
 	background-color: #cbcbcb;
 }
 
-.masthead p {
+.masthead p, .masthead h2{
 	background-color: #e2e2e2;
-}
-
-h1 {
-	text-align: center;
 }
 
 .nav {
@@ -46,17 +45,14 @@ h1 {
 }
 
 .nav a {
+	display: block;
 	color: #297ccc;
 	text-decoration: none;
 }
 
-.nav a:hover {
+.masthead .nav a:hover {
 	background-color: #297ccc;
 	color: #fff;
-}
-
-p, h2, figcaption, h3, dl {
-	padding: 0 1rem;
 }
 
 .main {

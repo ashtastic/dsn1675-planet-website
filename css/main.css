@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;;
 }
 
 *, *::before, *::after {
@@ -28,7 +28,7 @@ body {
 }
 
 .masthead {
-	background-color: lightgray;
+	background-color: #cbcbcb;
 }
 
 h1 {
@@ -40,7 +40,17 @@ h1 {
 }
 
 .nav a {
+	color: #297ccc;
 	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: #297ccc;
+	color: #fff;
+}
+
+.footer {
+	background-color: #cbcbcb;
 }
 
 @media only screen and (min-width: 25em) {

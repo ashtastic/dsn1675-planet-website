@@ -33,10 +33,7 @@ body {
 }
 
 .masthead p {
-	margin: 0;
-	padding: 1em;
 	background-color: #e2e2e2;
-	text-align: center;
 }
 
 h1 {
@@ -44,6 +41,7 @@ h1 {
 }
 
 .nav {
+	padding: 0;
 	list-style: none;
 }
 
@@ -66,7 +64,6 @@ p, h2, figcaption, h3, dl {
 }
 
 .details {
-	padding-top: 1em;
 	background-color: #e2e2e2;
 	}
 

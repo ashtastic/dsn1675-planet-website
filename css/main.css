@@ -10,15 +10,15 @@ h1 {
 	background-color: #cbcbcb;
 }
 
-.masthead p, .masthead h2{
+.masthead p, .masthead h2, .grid-3 {
 	background-color: #e2e2e2;
 }
 
-.nav {
-	list-style: none;
+.grid-2 {
+  background-color: #efefef;
 }
 
-.nav a {
+.nav a, a {
 	display: block;
 	color: #297ccc;
 	text-decoration: none;
